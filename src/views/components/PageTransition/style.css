@@ -1,0 +1,66 @@
+.transWrap {
+  position: relative;
+  transform-style: preserve-3d;
+  overflow: visible;
+}
+
+.transWrap>* {
+  will-change: opacity, transform;
+}
+
+
+/*:global(.example-enter) {
+  position: relative;
+  opacity: 0;
+}
+
+:global(.example-enter.example-enter-active) {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .4s;
+  transition-delay: .3s;
+  transition-timing-function: ease-in-out;
+  transform: translate(0, 0);
+}
+
+:global(.example-leave) {
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  pointer-events: none;
+  transition-property: opacity;
+  transition-duration: .4s;
+  transition-timing-function: ease-in-out;
+  z-index: 99;
+}
+
+:global(.example-leave.example-leave-active) {
+  position: absolute;
+  opacity: 0;
+}*/
+
+:global(.example-enter) {
+  position: relative;
+  transition: transform .5s ease-in;
+  transform: translateX(-100vw);
+}
+
+:global(.example-enter.example-enter-active) {
+  transform: translateX(0);
+}
+
+:global(.example-leave) {
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: transform .4s ease-in;
+  transform: translateX(0);
+}
+
+:global(.example-leave.example-leave-active) {
+  position: absolute;
+  transform: translateX(100vw);
+}

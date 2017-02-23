@@ -1,0 +1,21 @@
+.enter {
+  opacity: 0.01;
+	background: red;
+  transition: opacity 1s ease-in;
+}
+
+.enter.enterActive {
+	background: blue;
+  opacity: 1;
+}
+
+.leave {
+	background: green;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.leave.leaveActive {
+	background: yellow;
+  opacity: 0.01;
+}

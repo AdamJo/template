@@ -1,0 +1,7 @@
+.wrapper {
+  background: pink;
+  width: 80%;
+  min-width: 300px;
+  min-height: 450px;
+  margin: 20px 0;
+}

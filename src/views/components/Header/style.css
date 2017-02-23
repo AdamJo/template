@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin: 0 10px;
+}
+
+a:hover {
+  background: #EFE876
+}

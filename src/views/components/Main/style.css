@@ -1,0 +1,18 @@
+/*.Main {
+  position: relative;
+  box-sizing: border-box;
+  background-color: lightblue;
+  width: calc(100vw - 50px);
+  margin: 0 auto 25px;
+  padding: 65px 0;
+  z-index: 1;
+}*/
+
+
+/*
+.MainContent {
+  height: 100vh;
+  z-index: 99;
+  margin: -116px auto 0;
+}
+*/
