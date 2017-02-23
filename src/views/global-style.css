@@ -1,27 +1,7 @@
-/*@font-face {
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/Fonts/freigsanprobook-webfont.woff2') format('woff2'), url('../assets/Fonts/freigsanprobook-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Freight Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../assets/Fonts/freigsanprobold-webfont.woff2') format('woff2'), url('../assets/Fonts/freigsanprobold-webfont.woff') format('woff');
-}*/
-
 html {
   min-height: 100%;
-  /*overflow-x: hidden;*/
   background: #FDE8D5;
   font-size: 20px;
-  /*font-family: 'Freight Sans', sans-serif;*/
-  /*text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-touch-callout: none;
-  -webkit-text-size-adjust: none;*/
 }
 
 body {
