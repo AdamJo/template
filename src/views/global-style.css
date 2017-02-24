@@ -12,7 +12,12 @@ body {
   font-size: 100%;
 }
 
-
+@media only screen 
+  and (--maxS) {
+    html, body {
+      color: var(--primary);
+    }
+  }
 /*
 * {
   margin: 0;
