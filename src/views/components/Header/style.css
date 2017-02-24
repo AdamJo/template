@@ -1,18 +1,58 @@
 .header {
-  width: 100%;
+  min-width: 75vw;
+  height: 60px;
   display: flex;
   justify-content: space-between;
+
+  & h3 {
+    margin: auto 0;
+  }
 }
 
-nav {
+.menu {
+  posiiton: relative;
+
   display: flex;
   align-items: center;
 }
 
-a {
-  margin: 0 10px;
+.links {
+
+  display: flex;
+
+  & a {
+    &:hover {
+      background: #EFE876
+    }
+
+    margin: 0 10px;
+  }
 }
 
-a:hover {
-  background: #EFE876
+.hamburger {
+  display: none;
 }
+
+@media only screen 
+  and (--maxS) {
+    .hamburger {
+      display: flex;
+    }
+
+    .links {
+      display:none;
+    }
+
+    .active {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      background: lightyellow;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 110px;
+      font-size: 1.2rem;
+    }
+  }

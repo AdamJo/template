@@ -18,9 +18,9 @@ body {
       color: var(--primary);
     }
   }
-/*
-* {
-  margin: 0;
+
+ul {
+  list-style: none;
   padding: 0;
-  box-sizing: border-box;
-}*/
+  margin: 0;
+}
